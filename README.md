@@ -9,12 +9,13 @@ Realizado como parte do processo de aprendizado do módulo de Desenvolvimento We
 
 ## 📒 Sobre o projeto
 
-O programa desenvolvido é a simples aplicação de uma calculadora, possibilitando as funções mais básicas e essencias de uma:
+O programa desenvolvido é a simples aplicação de uma calculadora, com interface responsiva, possibilitando as funções mais básicas e essencias de uma calculadora:
 
 <ul>
-<li>Teclado numérico.</li>
-<li>Símbolos de operação básicos para desenvolver cálculos simples.</li>
-<li>Interface moderna e funcional.</li>
-<li>Botão para deletar o ultimo digito e botão para limpar tudo.</li>
-<li>Avaliador de expressão para considerar somente inputs válidos.</li>
+<li>Teclado numérico.
+<li>Símbolos de operação básicos para desenvolver cálculos simples.
+<li>Interface moderna e funcional.
+<li>Botão para deletar o ultimo digito e botão para limpar tudo.
+<li>Interface responsiva.
+<li>Avaliador de expressão para considerar somente inputs válidos.
 </ul>
