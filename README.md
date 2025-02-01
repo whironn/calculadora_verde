@@ -1,16 +1,21 @@
-# myapp
+# 📟 Aplicativo calculadora
 
-A new Flutter project.
+Um  projeto simples realizado usando flutter e os modelos de programação IDX.
+Realizado como parte do processo de aprendizado do módulo de Desenvolvimento Web do curso Talento Tech.
 
-## Getting Started
+<p align="center">
+<img width="400" height="450" src="https://github.com/user-attachments/assets/d32697ce-cb1e-427f-866a-1dd5efbe4d31" alt="Gif demonstrando o uso de uma calculadora">
+</p>
 
-This project is a starting point for a Flutter application.
+## 📒 Sobre o projeto
 
-A few resources to get you started if this is your first Flutter project:
+O programa desenvolvido é a simples aplicação de uma calculadora, com interface responsiva, possibilitando as funções mais básicas e essencias de uma calculadora:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<ul>
+<li>Teclado numérico.
+<li>Símbolos de operação básicos para desenvolver cálculos simples.
+<li>Interface moderna e funcional.
+<li>Botão para deletar o ultimo digito e botão para limpar tudo.
+<li>Interface responsiva.
+<li>Avaliador de expressão para considerar somente inputs válidos.
+</ul>
