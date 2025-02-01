@@ -1,7 +1,5 @@
-import 'calculadora.dart';
 import 'package:flutter/material.dart';
-// ignore: unused_import
-import 'package:expressions/expressions.dart';
+import 'calculadora.dart';
 
 void main() {
   runApp(const App());
@@ -14,14 +12,14 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'layout',
+      title: 'Layout',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color.fromARGB(255, 83, 223, 164),
+          seedColor: const Color.fromARGB(255, 0, 109, 176),
         ),
         useMaterial3: true,
       ),
-      home: const HomePage(title: 'CalculadoraGreen'),
+      home: const HomePage(title: 'Calculadora'),
     );
   }
 }
@@ -51,6 +49,7 @@ class _HomePageState extends State<HomePage> {
             child: Container(
               alignment: Alignment.center,
               color: Colors.transparent,
+              // child: const Text('Layout Superior'),
             ),
           ),
           Expanded(
@@ -62,6 +61,7 @@ class _HomePageState extends State<HomePage> {
                   child: Container(
                     alignment: Alignment.center,
                     color: Colors.transparent,
+                    // child: const Text('Primeira Coluna'),
                   ),
                 ),
                 Expanded(
@@ -69,17 +69,15 @@ class _HomePageState extends State<HomePage> {
                   child: Container(
                     alignment: Alignment.center,
                     decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 85, 226, 125),
-                      borderRadius: BorderRadius.circular(15),
-                      border: Border.all(
-                          color: const Color.fromARGB(255, 13, 12, 12),
-                          width: 2),
+                      color: const Color.fromARGB(255, 75, 186, 255), // Cor do fundo
+                      borderRadius: BorderRadius.circular(20), // Arredondamento
+                      border: Border.all(color: Colors.black, width: 2),
                       boxShadow: const [
                         BoxShadow(
-                          color: Color.fromARGB(61, 7, 6, 6),
-                          spreadRadius: 6,
-                          blurRadius: 11,
-                          offset: Offset(4, 4),
+                          color: Color.fromARGB(62, 109, 109, 109), // Cor da sombra
+                          spreadRadius: 3, // Quanto a sombra se expande
+                          blurRadius: 8, // Suavidade da borda da sombra
+                          offset: Offset(4, 4), // Deslocamento (x, y)
                         ),
                       ],
                     ),
@@ -90,7 +88,8 @@ class _HomePageState extends State<HomePage> {
                   flex: 1,
                   child: Container(
                     alignment: Alignment.center,
-                    color: const Color.fromARGB(0, 14, 13, 13),
+                    color: Colors.transparent,
+                    // child: const Text('Terceira Coluna'),
                   ),
                 ),
               ],
@@ -100,7 +99,8 @@ class _HomePageState extends State<HomePage> {
             flex: 1,
             child: Container(
               alignment: Alignment.center,
-              color: const Color.fromARGB(0, 15, 14, 14),
+              color: Colors.transparent,
+              // child: const Text('Layout Inferior'),
             ),
           ),
         ],
